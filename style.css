@@ -1,13 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    color: rgb(16, 14, 14);
+    color: rgb(1, 16, 6);
     margin: 0;
     overflow-y: scroll;
       overflow-x: hidden;
     padding: 20px;
+    color: #7b7a7b;
 
     background-attachment: fixed;
-    background-color: rgb(141, 204, 148);
+    background-color: rgb(245, 248, 245);
   }
   
   #h1{
@@ -52,13 +53,14 @@ body {
    gap: 100px;
    
    left: 25%;
-   filter: drop-shadow(8px 8px 4px  #67c881);
+  
   }
 
   .remove-item {
-    background-color: #1c1616;
+    background-color: #089047;
     color: white;
     border: none;
+    border-radius: 5px;
     padding: 8px 16px;
     display: inline-block;
     font-size: 14px;
@@ -68,13 +70,14 @@ body {
   }
   
   .remove-item:hover {
-    background-color: #d6438c;
+    background-color: #29332e;
   }
 
   .remove-item2 {
-    background-color: #1c1616;
+    background-color: #089047;
     color: white;
     border: none;
+    border-radius: 5px;
     width: 20%;
     padding: 8px 16px;
     text-decoration: none;
@@ -84,7 +87,7 @@ body {
   }
   
   .remove-item2:hover {
-    background-color: #d6438c;
+    background-color:#29332e;
   }
   .total{
     position: relative;
@@ -94,29 +97,31 @@ body {
   }
   #img{
     position: relative;
-    /* left: 8%; */
+  
   }
 
   
   .checkout {
-    background-color: #1c1616;
+    background-color: #089047;
     color: white;
     border: none;
     padding: 8px 16px;
     text-align: center;
     font-size: 14px;
+    border-radius: 5px;
     position: relative;
     left: 45%;
     bottom: 110px;
   }
 #delivery{
   position: relative;
+  border-radius: 5px;
   left: 25%;
   bottom: 58px;
 }
   
   .checkout:hover {
-    background-color: #d6438c;
+    background-color:#29332e;
   }
 
   .container {
@@ -141,8 +146,9 @@ body {
   
   select:focus {
     outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+    border-radius: 5px;
+    border-color: #b4c5d6;
+    box-shadow: 0 0 0 2px rgba(192, 197, 202, 0.25);
   }
   
   select::-ms-expand {
